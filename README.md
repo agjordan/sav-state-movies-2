@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Sav State Movies
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). It has been completed as a technical take home test in a few hours. The app data all comes from [TVMaze API](https://www.tvmaze.com/api). The landing page of the app displays a list of episodes that are premiering today. The search in the top right corner searches through available shows and clicking through from any episode or show gives a detail view of that show and all of the available episodes.
 
 ## Available Scripts
 

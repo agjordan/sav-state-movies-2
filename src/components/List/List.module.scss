@@ -1,0 +1,12 @@
+.list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100%;
+    overflow: auto;
+    background: var(--background);
+    color: var(--highlight);
+    border-top-right-radius: 20px;
+    padding: 50px;
+    align-items: center;
+}

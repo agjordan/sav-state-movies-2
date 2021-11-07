@@ -1,0 +1,29 @@
+@import url('../../styles/main.css');
+
+.container {
+  height: 100px;
+  margin-bottom: 5px;
+
+  .header {
+    display: flex;
+    background-color: var(--background);
+    border-bottom-right-radius: 20px;
+    align-items: center;
+    padding: 0px 50px;
+    justify-content: space-between;
+    height: 100%;
+  
+    .titleButton {
+      font-size: 2.5em;
+      color: whitesmoke;
+      background: none;
+      border: none;
+      cursor: pointer;
+    }
+  
+    .search {
+      box-sizing: border-box;
+      border: 2px solid var(--highlight);
+    }
+  }
+}

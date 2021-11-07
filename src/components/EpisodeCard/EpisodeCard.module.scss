@@ -1,0 +1,17 @@
+.card {
+  height: 350px;
+  width: 225px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid white;
+  margin-bottom: 15px;
+  color: var(--highlight);
+  margin: 5px 5px;
+  cursor: pointer;
+
+  .title {
+    font-size: 1em;
+  }
+}

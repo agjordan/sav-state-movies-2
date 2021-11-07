@@ -1,0 +1,31 @@
+.no-overflow {
+  overflow: hidden;
+}
+
+.full-height-container {
+  height: 100%;
+}
+
+.h-layout {
+  display: flex;
+}
+
+.left-column {
+  width: 35%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.right-column {
+  width: 65%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.app-border {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  flex-direction: column;
+}

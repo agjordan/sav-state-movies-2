@@ -1,0 +1,23 @@
+.list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 100%;
+  overflow: auto;
+  background: var(--background);
+  border-top-right-radius: 20px;
+  padding: 0px 50px;
+  align-items: center;
+
+  .listItem {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin-right: 10px;
+  }
+
+  .imgPlaceholder {
+    height: 112px;
+    margin: 0;
+  }
+}

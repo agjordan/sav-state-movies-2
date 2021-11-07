@@ -1,0 +1,23 @@
+.detail {
+  display: flex;
+  flex-direction: row;
+  overflow: auto;  
+  background: var(--background);
+  border-top-right-radius: 20px;
+  padding: 50px;
+  color: var(--highlight);
+  min-height: 50%;
+
+  .showImg {
+    margin-right: 50px;
+    height: 75%;
+  }
+
+  .imgPlaceholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 450px;
+    margin-right: 50px;
+  }
+}
